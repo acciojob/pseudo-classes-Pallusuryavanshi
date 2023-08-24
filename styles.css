@@ -1,1 +1,37 @@
 /*  your css code here. If applicable */
+:root {
+  background: rgb(135,206,235);
+}
+p:first-child{
+	background:black;
+	color:white;
+}
+p:nth-child(2){
+	color:normal;
+}
+p:last-child{
+	color:red;
+}
+.list{
+	width:50%;
+	background:grey;
+}
+.list>li:nth-child(even){
+	padding:10px;
+}
+.list>li:nth-child(odd){
+    padding:10px;
+   background:white;
+}
+.list>li:first-child{
+	font-size:22px;
+}
+.list>li:last-child{
+	font-size:22px;
+}
+.list>li:nth-child(3){
+	background:pink;
+}
+
+
+
